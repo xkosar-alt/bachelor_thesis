@@ -1,0 +1,22 @@
+# Python dependencies for the project
+
+# Data processing
+numpy>=1.21.0
+pandas>=1.3.0
+
+# Machine learning
+scikit-learn>=1.0.0
+torch>=1.10.0
+torchvision>=0.11.0
+
+# Image processing
+opencv-python>=4.5.0
+Pillow>=8.3.0
+
+# Data visualization
+matplotlib>=3.4.0
+seaborn>=0.11.0
+
+# Utilities
+tqdm>=4.62.0
+pyyaml>=5.4.0

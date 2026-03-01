@@ -1,0 +1,59 @@
+\documentclass[12pt,a4paper]{report}
+
+% Packages
+\usepackage[utf8]{inputenc}
+\usepackage[slovak]{babel}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{hyperref}
+\usepackage{biblatex}
+\usepackage{csquotes}
+
+% Bibliography
+\addbibresource{bibliography/references.bib}
+
+% Document metadata
+\title{Tvorba Datasetu pre Tréning Modelov Umelej Inteligencie v Agronómii}
+\author{Váš Meno}
+\date{\today}
+
+\begin{document}
+
+% Title page
+\maketitle
+
+% Abstract
+\chapter*{Abstrakt}
+\input{chapters/abstract}
+
+% Table of contents
+\tableofcontents
+
+% Chapters
+\chapter{Úvod}
+\input{chapters/introduction}
+
+\chapter{Teoretické základy}
+\input{chapters/theory}
+
+\chapter{Metodológia}
+\input{chapters/methodology}
+
+\chapter{Implementácia}
+\input{chapters/implementation}
+
+\chapter{Výsledky a diskusia}
+\input{chapters/results}
+
+\chapter{Záver}
+\input{chapters/conclusion}
+
+% Bibliography
+\printbibliography
+
+% Appendices
+\appendix
+\chapter{Prílohy}
+\input{chapters/appendix}
+
+\end{document}

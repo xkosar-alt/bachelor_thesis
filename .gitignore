@@ -1,0 +1,57 @@
+# Ignore LaTeX auxiliary files
+thesis/*.aux
+thesis/*.bbl
+thesis/*.blg
+thesis/*.log
+thesis/*.out
+thesis/*.toc
+thesis/*.bcf
+thesis/*.run.xml
+thesis/*.synctex.gz
+thesis/*.fdb_latexmk
+thesis/*.fls
+thesis/*.idx
+thesis/*.ilg
+thesis/*.ind
+thesis/*.lof
+thesis/*.lot
+
+# Ignore PDF output (optional - comment out if you want to commit the PDF)
+# thesis/*.pdf
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+
+# Data files (large files should not be in git)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+*.csv
+*.h5
+*.pkl
+*.npy
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+tmp/
+temp/
+*.tmp
