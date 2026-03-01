@@ -4,17 +4,18 @@ Tento adresár obsahuje zdrojový kód a skripty vytvorené v rámci bakalárske
 
 ## Štruktúra
 
-- `data_collection/` - Skripty pre zber dát
-- `annotation/` - Nástroje pre anotáciu dát
-- `preprocessing/` - Spracovanie a čistenie dát
-- `analysis/` - Analýza a vizualizácia datasetu
+- `data_collection.py` - Skript pre zber dát
+- `annotate.py` - Nástroj pre anotáciu dát
+- `analyze_dataset.py` - Analýza a vizualizácia datasetu
+- `requirements.txt` - Python závislosti
 
 ## Použitie
 
 ```python
 # Príklad použitia
-python data_collection/collect_data.py
-python annotation/annotate.py
+python data_collection.py --source /path/to/data --output ../data
+python annotate.py --data ../data/raw --output ../data/annotations
+python analyze_dataset.py --dataset ../data/annotations
 ```
 
 ## Požiadavky
